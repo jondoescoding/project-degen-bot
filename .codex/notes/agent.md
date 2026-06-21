@@ -95,6 +95,12 @@ Notes from upstream `AGENTS.md`:
 
 ## VPS Deployment Notes
 
+Current source checkout:
+
+- Server: `ubuntu-4gb-fsn1-1` at `178.105.108.228`
+- Path: `/opt/project-degen-bot`
+- Remote source: `https://github.com/jondoescoding/project-degen-bot.git`
+
 This repo is not ready to run as an unattended money-moving VPS process yet. Before deployment, add:
 
 - `.env.example` with non-secret variable names only.
