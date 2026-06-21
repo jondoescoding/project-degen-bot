@@ -188,3 +188,7 @@ research
 
 # Foundry build artifacts (Aave test contracts)
 tests/aave/libraries/contracts/.foundry
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+.beads-credential-key

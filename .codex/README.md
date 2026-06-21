@@ -5,6 +5,7 @@ This folder holds working documentation for the `project-degen-bot` fork.
 ## Navigation
 
 - `docs/curve-finance-source-of-truth.md` - official Curve docs map and build compass for the arbitrage system.
+- `docs/curve-watcher-first-test-prompt.md` - prompt for the first CURVE-SETUP watcher development thread.
 - `notes/agent.md` - repo orientation for agents and future development sessions.
 - `notes/repo-overview.html` - short browser-readable summary of the same repo orientation.
 
