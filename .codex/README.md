@@ -4,8 +4,17 @@ This folder holds working documentation for the `project-degen-bot` fork.
 
 ## Navigation
 
+- `docs/curve-finance-source-of-truth.md` - official Curve docs map and build compass for the arbitrage system.
 - `notes/agent.md` - repo orientation for agents and future development sessions.
 - `notes/repo-overview.html` - short browser-readable summary of the same repo orientation.
+
+## Protocol Source Of Truth
+
+Curve Finance's official documentation is the source of truth for Curve protocol behavior in this fork:
+
+https://docs.curve.finance/
+
+Local notes should link back to official Curve docs and live contract behavior before changing Curve pool discovery, quote math, route generation, or execution assumptions.
 
 ## Current Scope
 

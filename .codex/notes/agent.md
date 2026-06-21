@@ -12,6 +12,8 @@ For the current business goal, treat this repo as the research and calculation l
 - Monthly target: 30,000 JMD to cover subscriptions.
 - Practical implication: every opportunity must clear gas, flash-loan fees, slippage, failed transaction risk, RPC latency, and MEV competition before it counts as profit.
 - Development implication: start with offline/mainnet-fork simulation and paper calculations before any production key or funded wallet is attached.
+- Protocol source of truth: official Curve docs at `https://docs.curve.finance/`, summarized locally in `.codex/docs/curve-finance-source-of-truth.md`.
+- When local code and Curve docs disagree, verify official docs plus live contract behavior before changing the bot.
 
 ## Top-Level Folder Map
 
@@ -45,6 +47,8 @@ For the current business goal, treat this repo as the research and calculation l
 - `anvil_fork.py` supports local forked-chain testing.
 
 ## Curve And Arbitrage Path
+
+Before changing Curve discovery, quote math, route construction, or execution assumptions, read `.codex/docs/curve-finance-source-of-truth.md` and the linked official Curve docs.
 
 The existing Curve implementation centers on `src/degenbot/curve/curve_stableswap_liquidity_pool.py`.
 
